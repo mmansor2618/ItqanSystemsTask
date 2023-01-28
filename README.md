@@ -1,4 +1,4 @@
-This is a repo of the GUI task (Fatura)
+This is a repo of the GUI task (ItqanSystems)
 
 using Maven, Data Driven Test, Page object model , TestNG
 
@@ -14,31 +14,30 @@ Download maven from marketplace clone the project or download it make sure that 
 
 First Testcase
 
-1.open home page : https://deliveroo.co.uk/ the link is saved at configuration file not hard coded
+1- open home page : http://magento-demo.lexiconn.com/ the link is saved at configuration file not hard coded
+2- Go to “ACCOUNT” page
+3- Click on “Register” form
 
-2. reach the search text box and add any valid post code or city like "Liverpool" the value is getting from configrutaion file not hardcoded
+ I added asseration so i can compare the current Title with the expected Title
 
-3-Select relevant result appear to you and  click enter
-
- I added asseration so i can compare the current URL with the expected URL
-
-  Page Class: src/main/java/com/fatura/pages/SearchPage
+  Page Class: src/main/java/com/Itqan/pages/HomePage
             
-  Test Class: src/test/java/com/fatura/testcases/SearchPageTest
+  Test Class: src/test/java/com/Itqan/testcases/HomePageTest
   
   Second Testcase
 
-1.open home page : https://deliveroo.co.uk/
+1- open home page : http://magento-demo.lexiconn.com/ the link is saved at configuration file not hard coded
+2- Go to “ACCOUNT” page
+3- Click on “Register” form
+4-Fill form data then click on “REGISTER” button
 
-2.reach the footer of the home page and click on FAQs
-
-I added asseration so i can compare the current title of the page with the expected Title
+I added asseration so i can compare the current title of the page with the expected Title and current URL with Expected URL
 
 
   
-  Page Class: src/main/java/com/fatura/pages/FAQsPage
+  Page Class: src/main/java/com/Itqan/pages/SignupPage
             
-  Test Class: src/test/java/com/fatura/testcases/FAQsPageTest
+  Test Class: src/test/java/com/Itqan/testcases/SignupPageTest
 
   
 
