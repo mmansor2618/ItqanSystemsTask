@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-28T15:27:51 EET" name="Free CRM Application Test" finished-at="2023-01-28T15:31:12 EET" duration-ms="200999">
+    <groups>
+    </groups>
+    <test started-at="2023-01-28T15:27:51 EET" name="End to End Test" finished-at="2023-01-28T15:31:12 EET" duration-ms="200999">
+      <class name="com.Itqan.testcases.SignupPageTest">
+        <test-method is-config="true" signature="beforeSetup(java.lang.String)[pri:0, instance:com.Itqan.testcases.SignupPageTest@2e385cce]" started-at="2023-01-28T15:29:20 EET" name="beforeSetup" finished-at="2023-01-28T15:29:22 EET" duration-ms="1252" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSetup -->
+        <test-method signature="Signup()[pri:1, instance:com.Itqan.testcases.SignupPageTest@2e385cce]" started-at="2023-01-28T15:29:22 EET" name="Signup" finished-at="2023-01-28T15:31:12 EET" duration-ms="110392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Signup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Itqan.testcases.SignupPageTest@2e385cce]" started-at="2023-01-28T15:31:12 EET" name="tearDown" finished-at="2023-01-28T15:31:12 EET" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Itqan.testcases.SignupPageTest -->
+      <class name="com.Itqan.testcases.HomePageTest">
+        <test-method is-config="true" signature="beforeSetup(java.lang.String)[pri:0, instance:com.Itqan.testcases.HomePageTest@506ae4d4]" started-at="2023-01-28T15:27:51 EET" name="beforeSetup" finished-at="2023-01-28T15:27:54 EET" duration-ms="2533" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSetup -->
+        <test-method signature="NavigatingToSignupPage()[pri:1, instance:com.Itqan.testcases.HomePageTest@506ae4d4]" started-at="2023-01-28T15:27:54 EET" name="NavigatingToSignupPage" finished-at="2023-01-28T15:29:20 EET" duration-ms="86273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigatingToSignupPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Itqan.testcases.HomePageTest@506ae4d4]" started-at="2023-01-28T15:29:20 EET" name="tearDown" finished-at="2023-01-28T15:29:20 EET" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Itqan.testcases.HomePageTest -->
+    </test> <!-- End to End Test -->
+  </suite> <!-- Free CRM Application Test -->
+</testng-results>
