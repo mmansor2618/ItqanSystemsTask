@@ -15,7 +15,9 @@ Download maven from marketplace clone the project or download it make sure that 
 First Testcase
 
 1- open home page : http://magento-demo.lexiconn.com/ the link is saved at configuration file not hard coded
+
 2- Go to “ACCOUNT” page
+
 3- Click on “Register” form
 
  I added asseration so i can compare the current Title with the expected Title
@@ -27,8 +29,11 @@ First Testcase
   Second Testcase
 
 1- open home page : http://magento-demo.lexiconn.com/ the link is saved at configuration file not hard coded
+
 2- Go to “ACCOUNT” page
+
 3- Click on “Register” form
+
 4-Fill form data then click on “REGISTER” button
 
 I added asseration so i can compare the current title of the page with the expected Title and current URL with Expected URL
